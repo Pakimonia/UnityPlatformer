@@ -1,0 +1,1587 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/Android Unity/MarioPV927
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63119
+Successfully changed project path to: D:/Projects/Android Unity/MarioPV927
+D:/Projects/Android Unity/MarioPV927
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Android Unity/MarioPV927/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro M1000M (ID=0x13b1)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.5296
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003034 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.556 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2557ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (563ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1401ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2615.
+Total: 4.635600 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.074400 ms MarkObjects: 4.216600 ms  DeleteObjects: 0.135400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Melon.png
+  artifactKey: Guid(031678d507e557a41b7a16fc33bf6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Melon.png using Guid(031678d507e557a41b7a16fc33bf6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06dfb53663cf4bd9514a10fe0538e6a') in 0.194085 seconds 
+  Import took 0.197989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png
+  artifactKey: Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png using Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dd19c15d536fbd67ef2f0b1e44d80e') in 0.457862 seconds 
+  Import took 0.462655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Bananas.png
+  artifactKey: Guid(b1f24b3bc2e2f1d4b858657ad5c115a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Bananas.png using Guid(b1f24b3bc2e2f1d4b858657ad5c115a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ff4490461dd7bd4abc1add51f09b8d') in 0.067644 seconds 
+  Import took 0.071172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png
+  artifactKey: Guid(a2c110585eb710b408972fbc3b96136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png using Guid(a2c110585eb710b408972fbc3b96136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e715088902bb34379db5d782b8ccb') in 0.070115 seconds 
+  Import took 0.075110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Apple.png
+  artifactKey: Guid(1ddc9afd21fec77489b1248d18f31b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Apple.png using Guid(1ddc9afd21fec77489b1248d18f31b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a90b925631b3ff151c2b1d9be35178') in 0.065235 seconds 
+  Import took 0.068876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Kiwi.png
+  artifactKey: Guid(5100b75572e484e458e4340e2afe9454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Kiwi.png using Guid(5100b75572e484e458e4340e2afe9454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9217d27ebcb08598726cf877537dc77') in 0.067853 seconds 
+  Import took 0.071423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Collected.png
+  artifactKey: Guid(be1a5bd13766ec048bab6f4c578baa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Collected.png using Guid(be1a5bd13766ec048bab6f4c578baa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7321b5fba4d18b20dbb3fb16607fb41f') in 0.034153 seconds 
+  Import took 0.039835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Pineapple.png
+  artifactKey: Guid(131e485692e27e84c86170dad18cda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Pineapple.png using Guid(131e485692e27e84c86170dad18cda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189423e59d0abd0190db4fd46e4dd526') in 0.067969 seconds 
+  Import took 0.072401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png
+  artifactKey: Guid(3d6be91968cb95546ac95aeff5e52f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png using Guid(3d6be91968cb95546ac95aeff5e52f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebec4fc2a7e84fb6e20c11de15c8f732') in 0.068780 seconds 
+  Import took 0.072560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Orange.png
+  artifactKey: Guid(ffc9f271fad56c243a45f100b9dc6778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Orange.png using Guid(ffc9f271fad56c243a45f100b9dc6778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b98049340359ad5686491c87e50c4da') in 0.065504 seconds 
+  Import took 0.070051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png
+  artifactKey: Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png using Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7c67db3e58c5765c180226d5e26eab') in 0.023489 seconds 
+  Import took 0.027369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 256.762309 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab
+  artifactKey: Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab using Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb18fd899f143e70bbccbbbba2470b6') in 0.087483 seconds 
+  Import took 0.094395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.583346 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab
+  artifactKey: Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab using Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c15c71406e7cf587bf674dd323d097f') in 0.013807 seconds 
+  Import took 0.021531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.029477 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab
+  artifactKey: Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab using Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf7f25117d0af764736de0b78209e4a') in 0.022206 seconds 
+  Import took 0.027161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.asset
+  artifactKey: Guid(ca83db2190e0c0443b7476c8ab5ec579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.asset using Guid(ca83db2190e0c0443b7476c8ab5ec579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345af9919ca9b402311f95e4306c9ee6') in 0.031931 seconds 
+  Import took 0.036344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.679014 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab
+  artifactKey: Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab using Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b45a3f41fc8e69ceb5a93124a8455cb') in 0.075591 seconds 
+  Import took 0.083991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.668273 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello
+  artifactKey: Guid(8b02e86e1828c4a458d565b72cfff55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello using Guid(8b02e86e1828c4a458d565b72cfff55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f042e0ca621552cf768bf561a8c19ae') in 0.005933 seconds 
+  Import took 0.011369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097906 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_0.asset
+  artifactKey: Guid(3e81ad80fa1d6af4aba483ca165bc3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_0.asset using Guid(3e81ad80fa1d6af4aba483ca165bc3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a7f11aac0141fb4ccc3010e9acc9a4') in 0.013959 seconds 
+  Import took 0.020155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_12.asset
+  artifactKey: Guid(d7bcc3c71730a1f49bf066b90f056491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_12.asset using Guid(d7bcc3c71730a1f49bf066b90f056491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8591b34116582fabaab455f101247b8d') in 0.017657 seconds 
+  Import took 0.022142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_2.asset
+  artifactKey: Guid(7f79c535e24cef941a6d274b35c89be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_2.asset using Guid(7f79c535e24cef941a6d274b35c89be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c420cbebd519543eaf2a8b8313edb0c9') in 0.016056 seconds 
+  Import took 0.021803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_13.asset
+  artifactKey: Guid(4035079168b6cad4783d0e5ce8ae1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_13.asset using Guid(4035079168b6cad4783d0e5ce8ae1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6496308607a9968b340e821230f604') in 0.014183 seconds 
+  Import took 0.020954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_5.asset
+  artifactKey: Guid(13e925fffa2f21f44b96ac17dd778ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_5.asset using Guid(13e925fffa2f21f44b96ac17dd778ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5e53495c8d8e1593346b572181e5ec') in 0.015653 seconds 
+  Import took 0.022224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_9.asset
+  artifactKey: Guid(d31c678504dea9040bce20ed889440dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_9.asset using Guid(d31c678504dea9040bce20ed889440dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23584db70d75a6e4856b9d79d81c622e') in 0.016875 seconds 
+  Import took 0.022811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_11.asset
+  artifactKey: Guid(bf537a52fcc5c4c46b7bba2493c73dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_11.asset using Guid(bf537a52fcc5c4c46b7bba2493c73dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4cdec9020785ea40c31850effc37fe') in 0.015980 seconds 
+  Import took 0.023384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_8.asset
+  artifactKey: Guid(2b440e59c15f05745ad3f23a87a3b5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_8.asset using Guid(2b440e59c15f05745ad3f23a87a3b5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f327b0c8d0ba46a2aed5543e6111535c') in 0.013363 seconds 
+  Import took 0.018173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_6.asset
+  artifactKey: Guid(0ec518aa6442bc149b47613c3df08964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_6.asset using Guid(0ec518aa6442bc149b47613c3df08964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290a4e914060374cdc83d3a0ef853db3') in 0.014653 seconds 
+  Import took 0.019677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_10.asset
+  artifactKey: Guid(d7e7091b047bd2c419becb754630f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_10.asset using Guid(d7e7091b047bd2c419becb754630f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d054189e55e1766e36b5362ad5beeb') in 0.017462 seconds 
+  Import took 0.023618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_1.asset
+  artifactKey: Guid(058a4b6995915e64b9b58edaf32c30e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_1.asset using Guid(058a4b6995915e64b9b58edaf32c30e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922ced1f7a97367fa7cde31e630c3f20') in 0.018079 seconds 
+  Import took 0.023477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_14.asset
+  artifactKey: Guid(d3b1c3da2ecbb16418eae9e0ed1ff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_14.asset using Guid(d3b1c3da2ecbb16418eae9e0ed1ff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e2e9855058d37082d4a2920ade4521') in 0.016243 seconds 
+  Import took 0.021971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_15.asset
+  artifactKey: Guid(7c093ae331168134da157914da0fd8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_15.asset using Guid(7c093ae331168134da157914da0fd8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5639f6d1b02491d4a25e29c10d1c7c18') in 0.015648 seconds 
+  Import took 0.022187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_3.asset
+  artifactKey: Guid(a5e605f5482bac24788e5f0e11f88f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_3.asset using Guid(a5e605f5482bac24788e5f0e11f88f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a72b587c61cf97a240b3f7e4a2bcec5') in 0.013420 seconds 
+  Import took 0.019304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_4.asset
+  artifactKey: Guid(d232e67e2969aae4792c69fadfc89574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_4.asset using Guid(d232e67e2969aae4792c69fadfc89574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f893b818fdf00185346874357c9b0e') in 0.013965 seconds 
+  Import took 0.018227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_7.asset
+  artifactKey: Guid(0a91cd6b7f2e5da44b20a7a7b2f6a559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_7.asset using Guid(0a91cd6b7f2e5da44b20a7a7b2f6a559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a14343a891911289296fe69c0446270') in 0.014981 seconds 
+  Import took 0.019794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_16.asset
+  artifactKey: Guid(5e51313018b03ec46bc654fb89a9b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_16.asset using Guid(5e51313018b03ec46bc654fb89a9b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ad56456f205b59cdec2b1d851e7c86') in 0.014789 seconds 
+  Import took 0.020915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.133512 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_17.asset
+  artifactKey: Guid(a707c60a0c4aed54ba257451047d893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_17.asset using Guid(a707c60a0c4aed54ba257451047d893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6e6ee4528cde70b332b2aa00463682') in 0.016173 seconds 
+  Import took 0.020744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_19.asset
+  artifactKey: Guid(a5e9e708b66ba3c4c80b502388433e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_19.asset using Guid(a5e9e708b66ba3c4c80b502388433e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6b556822dfb482536d01440c482712') in 0.014110 seconds 
+  Import took 0.018813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_21.asset
+  artifactKey: Guid(74b98d8e347a47c43a505a938763ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_21.asset using Guid(74b98d8e347a47c43a505a938763ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83b1b0fcb87a1c8a6dc330daf629bc1') in 0.014445 seconds 
+  Import took 0.019661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_20.asset
+  artifactKey: Guid(348b082e9910cf447a0cdad7a6172a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_20.asset using Guid(348b082e9910cf447a0cdad7a6172a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1712484d079425e74466da5686adea57') in 0.015076 seconds 
+  Import took 0.020870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_27.asset
+  artifactKey: Guid(1afff2ea7c7faa542894dcc544122ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_27.asset using Guid(1afff2ea7c7faa542894dcc544122ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d113789952471f62e9cf5eff7b28df') in 0.012762 seconds 
+  Import took 0.019399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_26.asset
+  artifactKey: Guid(87e0d7a1064b71140aa407c7138c67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_26.asset using Guid(87e0d7a1064b71140aa407c7138c67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c6710cf0a7b40185699452d3fbf345') in 0.017064 seconds 
+  Import took 0.022445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_28.asset
+  artifactKey: Guid(ebb96a81c4fd2414e8f304f10afeb058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_28.asset using Guid(ebb96a81c4fd2414e8f304f10afeb058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26144848b6c9897dc708cc9755c177da') in 0.017747 seconds 
+  Import took 0.024789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_25.asset
+  artifactKey: Guid(756fc366e9d2ede48b6db83abd2ae50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_25.asset using Guid(756fc366e9d2ede48b6db83abd2ae50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304ca2b5a1feba0b827fab232740fb1a') in 0.017116 seconds 
+  Import took 0.023938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_24.asset
+  artifactKey: Guid(52ecadfab7b62fa4f82650cd2c1e8fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_24.asset using Guid(52ecadfab7b62fa4f82650cd2c1e8fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fde1cac8bba8ce65d83f1d88d2a0c6') in 0.017983 seconds 
+  Import took 0.023335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_18.asset
+  artifactKey: Guid(040c8495ac34d634e8ec310013148395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_18.asset using Guid(040c8495ac34d634e8ec310013148395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bed8e95dbbdcaa131ee2855e58f4ce') in 0.016966 seconds 
+  Import took 0.023436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_22.asset
+  artifactKey: Guid(8c9c3b8205ed22e458867a169df0e4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_22.asset using Guid(8c9c3b8205ed22e458867a169df0e4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a6c0b72622a5f56d889054f5fb981e') in 0.016120 seconds 
+  Import took 0.020560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_23.asset
+  artifactKey: Guid(bb02e8115f2fc4541a7a837984ff0b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_23.asset using Guid(bb02e8115f2fc4541a7a837984ff0b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d138c420970e576f82eaa6c6dcffd45') in 0.012186 seconds 
+  Import took 0.016980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068319 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_29.asset
+  artifactKey: Guid(2283b654648cf3049bd806486da348c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_29.asset using Guid(2283b654648cf3049bd806486da348c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9367e3b846d8a8ac2ffad4b30e5b1a') in 0.014488 seconds 
+  Import took 0.020689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_34.asset
+  artifactKey: Guid(e7538a292b37fcd41afbc5b61404c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_34.asset using Guid(e7538a292b37fcd41afbc5b61404c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5597d0dd62ccab5c415ebe3a8865361') in 0.014411 seconds 
+  Import took 0.019018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_33.asset
+  artifactKey: Guid(2f3bf41f82d8f1e48994bbdd6835a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_33.asset using Guid(2f3bf41f82d8f1e48994bbdd6835a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5282e6943910bea458ed6d02e3ab9315') in 0.014799 seconds 
+  Import took 0.019153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_43.asset
+  artifactKey: Guid(3d544ad7498daf640865b91e87c3bcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_43.asset using Guid(3d544ad7498daf640865b91e87c3bcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285c8dd667154094335e538f9259e938') in 0.012471 seconds 
+  Import took 0.016764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_35.asset
+  artifactKey: Guid(7e7035632e3e3864e944591a0d0de422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_35.asset using Guid(7e7035632e3e3864e944591a0d0de422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9419aeca3d5b53cba400ba130ff6c957') in 0.012896 seconds 
+  Import took 0.017708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_42.asset
+  artifactKey: Guid(53783790b27cf9041b9bf724935152f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_42.asset using Guid(53783790b27cf9041b9bf724935152f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4dea7ca3aac10ba2cddb11784a89fd') in 0.013996 seconds 
+  Import took 0.018350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_32.asset
+  artifactKey: Guid(7df897b0d2ca96c41819c2b06825e604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_32.asset using Guid(7df897b0d2ca96c41819c2b06825e604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a5c2003b566ac435dba44a250f2199') in 0.013112 seconds 
+  Import took 0.019954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_38.asset
+  artifactKey: Guid(4de1268956268ea4db941ee4f57a2f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_38.asset using Guid(4de1268956268ea4db941ee4f57a2f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dd074c7adef7af00b93b117976379f') in 0.015813 seconds 
+  Import took 0.020440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_31.asset
+  artifactKey: Guid(2df00cd026a374347a9db7762b0adc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_31.asset using Guid(2df00cd026a374347a9db7762b0adc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b6cf459adba60b5d61904acd333a80') in 0.014537 seconds 
+  Import took 0.019760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_37.asset
+  artifactKey: Guid(b93c6cd33ffc37541ad5399778872cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_37.asset using Guid(b93c6cd33ffc37541ad5399778872cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd74960614968c992e3fb56996f3efb9') in 0.015840 seconds 
+  Import took 0.020471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_30.asset
+  artifactKey: Guid(7f61d2ac93f0eb1418a7bb6a351895fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_30.asset using Guid(7f61d2ac93f0eb1418a7bb6a351895fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e8dac319eef58dae17e43fdbea10bf') in 0.014114 seconds 
+  Import took 0.020936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_44.asset
+  artifactKey: Guid(ddc8dcf3f92405d4aad545d9aee6b1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_44.asset using Guid(ddc8dcf3f92405d4aad545d9aee6b1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7093457bc5a2cca2f4041a1db878a11') in 0.018191 seconds 
+  Import took 0.022758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_40.asset
+  artifactKey: Guid(ffc4332f74410eb48a6fd0457ea04cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_40.asset using Guid(ffc4332f74410eb48a6fd0457ea04cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b41a88ad80921cad854fd8f1647e4b1') in 0.013549 seconds 
+  Import took 0.019460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_36.asset
+  artifactKey: Guid(e4b2d982361764049a25475480704353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_36.asset using Guid(e4b2d982361764049a25475480704353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e606def75c395675d0e6de44f72ca6') in 0.016642 seconds 
+  Import took 0.023373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_39.asset
+  artifactKey: Guid(e4c44300610fd2b47a94060c03a1ec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_39.asset using Guid(e4c44300610fd2b47a94060c03a1ec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c6e3540a7e8ea1409059a56e98d396') in 0.022190 seconds 
+  Import took 0.027464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_41.asset
+  artifactKey: Guid(d0df8f8be44e7254881b33d7aa61e001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_41.asset using Guid(d0df8f8be44e7254881b33d7aa61e001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb8e74ccf1026dcf5b3a24e8d3c2f20') in 0.015183 seconds 
+  Import took 0.022620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024198 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_45.asset
+  artifactKey: Guid(6dbee4eefd2bdd1449a64cb343c255c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_45.asset using Guid(6dbee4eefd2bdd1449a64cb343c255c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed920f264d25e16f249ffb2d56c3faa') in 0.013118 seconds 
+  Import took 0.017970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_54.asset
+  artifactKey: Guid(e4a378359ed14264787d4edb514cbfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_54.asset using Guid(e4a378359ed14264787d4edb514cbfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7674d4f36a716a953e6d576b8adbb3e6') in 0.014321 seconds 
+  Import took 0.018630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_59.asset
+  artifactKey: Guid(275935b105a6d1841b2a32970ff1cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_59.asset using Guid(275935b105a6d1841b2a32970ff1cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37adfd7363ac5eb96e293733e1473bb1') in 0.012804 seconds 
+  Import took 0.019078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_52.asset
+  artifactKey: Guid(3a9a5f12323b4c54b8d34af55029e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_52.asset using Guid(3a9a5f12323b4c54b8d34af55029e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bf46635e619aa98d0c778d4237037b') in 0.011796 seconds 
+  Import took 0.017079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_58.asset
+  artifactKey: Guid(3b9996028f0f10a459d6706f388ee365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_58.asset using Guid(3b9996028f0f10a459d6706f388ee365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f360b1819b356436162bb6615c6f10bc') in 0.015872 seconds 
+  Import took 0.021246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_46.asset
+  artifactKey: Guid(129f21825d1e94849bf839c6de7eace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_46.asset using Guid(129f21825d1e94849bf839c6de7eace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474cef1314ea0508dc956297ca2a0317') in 0.012984 seconds 
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_50.asset
+  artifactKey: Guid(ac650c35b90ff434a93c99c8773cc883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_50.asset using Guid(ac650c35b90ff434a93c99c8773cc883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a837b3a4c075f1e9bb2f95724390e4') in 0.014884 seconds 
+  Import took 0.019086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_51.asset
+  artifactKey: Guid(4e5a21c7f5368f74685a95f2b6eba688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_51.asset using Guid(4e5a21c7f5368f74685a95f2b6eba688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4d4250c437df363a03d26fb148bb85') in 0.012483 seconds 
+  Import took 0.016692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_56.asset
+  artifactKey: Guid(b967e61427cc0c14aa7283df0a0ae3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_56.asset using Guid(b967e61427cc0c14aa7283df0a0ae3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0310e0f8fbb0896a684dcfa1dc24b3ce') in 0.016364 seconds 
+  Import took 0.022886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_53.asset
+  artifactKey: Guid(96525a44cde94aa49bd21ea3753e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_53.asset using Guid(96525a44cde94aa49bd21ea3753e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27177d075f84a1443edf2a17448d832a') in 0.014745 seconds 
+  Import took 0.019743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_60.asset
+  artifactKey: Guid(bf984bec80b4ced4680f5516cf106cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_60.asset using Guid(bf984bec80b4ced4680f5516cf106cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244547a569a72b823a3fd411b66d98cc') in 0.015631 seconds 
+  Import took 0.020146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_57.asset
+  artifactKey: Guid(9af2bb51c39587842bc6828fd2d41e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_57.asset using Guid(9af2bb51c39587842bc6828fd2d41e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0439b6928e4df2a081ce28fd8a4840') in 0.014236 seconds 
+  Import took 0.018332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_49.asset
+  artifactKey: Guid(19f94278fc96f764caca751b654bd485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_49.asset using Guid(19f94278fc96f764caca751b654bd485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1402df1d9f9b64571c05e1beb53e0517') in 0.015064 seconds 
+  Import took 0.020103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_48.asset
+  artifactKey: Guid(545533867d6d8974fadd3ae2f8c0b75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_48.asset using Guid(545533867d6d8974fadd3ae2f8c0b75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bb84b724d54988e545017bdcf621d2') in 0.016519 seconds 
+  Import took 0.023299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_47.asset
+  artifactKey: Guid(74008f01822ab5341b1e1181d10155e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_47.asset using Guid(74008f01822ab5341b1e1181d10155e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95209df33e0d86d85befd5781e0498f1') in 0.014657 seconds 
+  Import took 0.019233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_55.asset
+  artifactKey: Guid(7369e0a24935db847a224d2ebf8c61dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_55.asset using Guid(7369e0a24935db847a224d2ebf8c61dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daf427b1b64df679016402dc4bb931e') in 0.013303 seconds 
+  Import took 0.017513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017772 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_61.asset
+  artifactKey: Guid(f874f57b16684e6489e82b21644d9dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_61.asset using Guid(f874f57b16684e6489e82b21644d9dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186593792271495d44b99f1c314a6bd5') in 0.012465 seconds 
+  Import took 0.017401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_62.asset
+  artifactKey: Guid(c7828d58ebb311745b4d7ae1693969bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_62.asset using Guid(c7828d58ebb311745b4d7ae1693969bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456f57de739f3cde942514b38d1b8178') in 0.014841 seconds 
+  Import took 0.018955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_64.asset
+  artifactKey: Guid(2ae1794cbd66195489867d2a8dc97666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_64.asset using Guid(2ae1794cbd66195489867d2a8dc97666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bde75cb8b44c49ab29b35803b06c57') in 0.012315 seconds 
+  Import took 0.019980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_72.asset
+  artifactKey: Guid(0a1129d0e6454774887ac93c249b31cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_72.asset using Guid(0a1129d0e6454774887ac93c249b31cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b614f5f0652ab4fad9f162e7236d6a8e') in 0.011916 seconds 
+  Import took 0.017233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_68.asset
+  artifactKey: Guid(2dbc7b96ee0e4714d93aff58f92ff6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_68.asset using Guid(2dbc7b96ee0e4714d93aff58f92ff6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c864acf91dec6a5d86cbe09e9ba2dd8') in 0.016158 seconds 
+  Import took 0.021276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_69.asset
+  artifactKey: Guid(34012d34000bf7e4483fa9b3825efe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_69.asset using Guid(34012d34000bf7e4483fa9b3825efe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c501bfc367fb41c13a2fc0f23e69b44') in 0.014465 seconds 
+  Import took 0.018925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_66.asset
+  artifactKey: Guid(43ff6145936b2a948ae60dcd3e11edee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_66.asset using Guid(43ff6145936b2a948ae60dcd3e11edee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b111303e6d18e6c92a363ed7fafd0d') in 0.014275 seconds 
+  Import took 0.018804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_77.asset
+  artifactKey: Guid(87a9e66db56324e44a7a1bde4f25e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_77.asset using Guid(87a9e66db56324e44a7a1bde4f25e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1992b858d405ccf5d7ec1ab59de7ba1') in 0.012489 seconds 
+  Import took 0.020023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_79.asset
+  artifactKey: Guid(12d7b659f49ee92458db4e7bdac05749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_79.asset using Guid(12d7b659f49ee92458db4e7bdac05749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa088d876263942b10f0ce5b52bb68e') in 0.013597 seconds 
+  Import took 0.019228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_78.asset
+  artifactKey: Guid(4d9f5489937a85a48978cf1ec074372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_78.asset using Guid(4d9f5489937a85a48978cf1ec074372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c5c9cfaa52e7f8a1d00edd329476c6') in 0.017489 seconds 
+  Import took 0.023222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_80.asset
+  artifactKey: Guid(ad41916c3fa4ef64ea266e41cf5536b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_80.asset using Guid(ad41916c3fa4ef64ea266e41cf5536b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20834622ff39e97df92295d93ccc2a33') in 0.018297 seconds 
+  Import took 0.024326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_76.asset
+  artifactKey: Guid(4b1403e5a7149794ba936f8c70b3639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_76.asset using Guid(4b1403e5a7149794ba936f8c70b3639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7f6dee36ba55d1b24969ba018f5325') in 0.015345 seconds 
+  Import took 0.021076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_74.asset
+  artifactKey: Guid(a89992cc78560974b90d562dd3dd1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_74.asset using Guid(a89992cc78560974b90d562dd3dd1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad60859c4975783f2e92c2cf45bf76be') in 0.016990 seconds 
+  Import took 0.021861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_65.asset
+  artifactKey: Guid(27ebe6e7bcf414a4bacfed5354c0a961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_65.asset using Guid(27ebe6e7bcf414a4bacfed5354c0a961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b443d987fd58bc82bacd0524805d3237') in 0.013214 seconds 
+  Import took 0.019454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_70.asset
+  artifactKey: Guid(9268f327177cac247bd8f7e0801296eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_70.asset using Guid(9268f327177cac247bd8f7e0801296eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88be3b76aec896686154b5fd62673829') in 0.013928 seconds 
+  Import took 0.019802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_71.asset
+  artifactKey: Guid(526e85fd528e13a49b7c357b2458d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_71.asset using Guid(526e85fd528e13a49b7c357b2458d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daa85f99e60a820dd6d9d9450085e39') in 0.013763 seconds 
+  Import took 0.018140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_63.asset
+  artifactKey: Guid(555398088bf94f34094485c30be201dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_63.asset using Guid(555398088bf94f34094485c30be201dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be16613c45898ff3d490c08add979218') in 0.014359 seconds 
+  Import took 0.020018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_67.asset
+  artifactKey: Guid(c22a52ab040b6c049a177a8697a6aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_67.asset using Guid(c22a52ab040b6c049a177a8697a6aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de65c956b6de8ea76064cefb0b50f2ea') in 0.014227 seconds 
+  Import took 0.018757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_75.asset
+  artifactKey: Guid(c4b88e801d6923749afa2952b909ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_75.asset using Guid(c4b88e801d6923749afa2952b909ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fabb308c281d099bd2f217720d908a7') in 0.012082 seconds 
+  Import took 0.016243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_73.asset
+  artifactKey: Guid(963b43d2211806242bd95ea495475698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_73.asset using Guid(963b43d2211806242bd95ea495475698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd919f850c380a4321f2b228a491c86c5') in 0.013648 seconds 
+  Import took 0.017872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_86.asset
+  artifactKey: Guid(a5d2a7e79e2a9034f8907572fb78b5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_86.asset using Guid(a5d2a7e79e2a9034f8907572fb78b5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab51fd9a077bce58bb8b1002494991b') in 0.013941 seconds 
+  Import took 0.019680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_91.asset
+  artifactKey: Guid(ef0854a068dc06548879cdaa7fa1d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_91.asset using Guid(ef0854a068dc06548879cdaa7fa1d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c525d7ffd3ff0b1d95990a7fbd50f9') in 0.012851 seconds 
+  Import took 0.018541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_93.asset
+  artifactKey: Guid(97fe07a15c4da7049af378283c8ae2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_93.asset using Guid(97fe07a15c4da7049af378283c8ae2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486dce450f00b1af929668b765148d63') in 0.013588 seconds 
+  Import took 0.018445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_83.asset
+  artifactKey: Guid(e5b49a2eca07a534e87d78a2a9e394d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_83.asset using Guid(e5b49a2eca07a534e87d78a2a9e394d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e6e14e4e15a24122f284e12a05f63a') in 0.013791 seconds 
+  Import took 0.018434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_87.asset
+  artifactKey: Guid(ed805a7d1f57f7946a333351e27b9a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_87.asset using Guid(ed805a7d1f57f7946a333351e27b9a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9858cd4a60d19520b76c50e828aba4') in 0.013942 seconds 
+  Import took 0.018966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_84.asset
+  artifactKey: Guid(126f39e7d1549054a8dee8f77629f47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_84.asset using Guid(126f39e7d1549054a8dee8f77629f47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff02a0c8f2e031bbc298ec5a00f2d50') in 0.019424 seconds 
+  Import took 0.025072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_81.asset
+  artifactKey: Guid(2ea14514781737b4fb7f1fbd19862242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_81.asset using Guid(2ea14514781737b4fb7f1fbd19862242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e366dec2834cb31fe248bfa64fda4d') in 0.015220 seconds 
+  Import took 0.020669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_89.asset
+  artifactKey: Guid(0c65d03a55c46624e84a90e9c7e84f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_89.asset using Guid(0c65d03a55c46624e84a90e9c7e84f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf09fb1646325b8cc27c5a5da0fe4d0') in 0.014479 seconds 
+  Import took 0.019046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_95.asset
+  artifactKey: Guid(f67f51a788d4b9d48ba5d2472e1e53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_95.asset using Guid(f67f51a788d4b9d48ba5d2472e1e53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3419c0ace1282876713a708d0bf43736') in 0.014144 seconds 
+  Import took 0.018897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_82.asset
+  artifactKey: Guid(53b59c5027eac9248aea1bd06e762858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_82.asset using Guid(53b59c5027eac9248aea1bd06e762858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11071e5be98917def18e65f09e0cad5') in 0.014849 seconds 
+  Import took 0.018882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_90.asset
+  artifactKey: Guid(47604340ff5b48b4086db9c5aca99ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_90.asset using Guid(47604340ff5b48b4086db9c5aca99ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814785c70d5434de22961303519a55e1') in 0.011817 seconds 
+  Import took 0.018203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_85.asset
+  artifactKey: Guid(ab70dc457704e1a49ae29fb170a3a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_85.asset using Guid(ab70dc457704e1a49ae29fb170a3a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d22bc3b475d03a79f8e6a2b19588e1') in 0.016404 seconds 
+  Import took 0.022826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_88.asset
+  artifactKey: Guid(1f59b438dff0f16469a9119eca0f520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_88.asset using Guid(1f59b438dff0f16469a9119eca0f520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296ff500344f4db302aa26ff1165a9e0') in 0.017194 seconds 
+  Import took 0.022892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_92.asset
+  artifactKey: Guid(a0e715d7d674bf24e97098b3de0faa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_92.asset using Guid(a0e715d7d674bf24e97098b3de0faa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3089b441859a4f633153311518bb7e93') in 0.011845 seconds 
+  Import took 0.017434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_94.asset
+  artifactKey: Guid(b578632544f791246abf014f66a2d7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_94.asset using Guid(b578632544f791246abf014f66a2d7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a492e589d2dea015f190c28660708ce7') in 0.013521 seconds 
+  Import took 0.019467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_96.asset
+  artifactKey: Guid(651331bc554f6844998d3f2bc3d5043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_96.asset using Guid(651331bc554f6844998d3f2bc3d5043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ade20c65ed52ef45ee7a32c2781a58') in 0.011688 seconds 
+  Import took 0.016846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_100.asset
+  artifactKey: Guid(79f3ca8215d88c044b37634797a14000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_100.asset using Guid(79f3ca8215d88c044b37634797a14000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9884fda489468bfe153bb7a10b521fe4') in 0.013311 seconds 
+  Import took 0.017661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_112.asset
+  artifactKey: Guid(9e11ee4bafb4ad040ba7de6620da9156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_112.asset using Guid(9e11ee4bafb4ad040ba7de6620da9156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251020a9b9cd1e957165da6a78b44966') in 0.014452 seconds 
+  Import took 0.018830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_110.asset
+  artifactKey: Guid(9f6f1e1b98bae9f4f8251a8209770463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_110.asset using Guid(9f6f1e1b98bae9f4f8251a8209770463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49167cd8869f1bf35ee84a8304d0c0fd') in 0.013389 seconds 
+  Import took 0.017505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_114.asset
+  artifactKey: Guid(da7b75dd14b2c0d4f943bd84bfa6a8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_114.asset using Guid(da7b75dd14b2c0d4f943bd84bfa6a8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527e6582869580f872534b114548432c') in 0.014605 seconds 
+  Import took 0.019642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_109.asset
+  artifactKey: Guid(77f1a03e564bb6f4d99bb7e774108bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_109.asset using Guid(77f1a03e564bb6f4d99bb7e774108bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfb21c98285f73afa3ee1db5b240100') in 0.012492 seconds 
+  Import took 0.016762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_97.asset
+  artifactKey: Guid(8447c1bd5cbcfcd4ebb49a93d83e91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_97.asset using Guid(8447c1bd5cbcfcd4ebb49a93d83e91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b22bdef058c5075682ed3df1718a32') in 0.014857 seconds 
+  Import took 0.021158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_116.asset
+  artifactKey: Guid(004731780183d204989434d226634363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_116.asset using Guid(004731780183d204989434d226634363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be187b3f330aa8b65a48ab11a3d12f70') in 0.012821 seconds 
+  Import took 0.018958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_99.asset
+  artifactKey: Guid(eddf04d08d5777e41a5b4ca235ded06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_99.asset using Guid(eddf04d08d5777e41a5b4ca235ded06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0e04353c9d9021dab887329e88b669') in 0.014084 seconds 
+  Import took 0.019150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_103.asset
+  artifactKey: Guid(85a64b7226cc0704ba28acd7de6b8070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_103.asset using Guid(85a64b7226cc0704ba28acd7de6b8070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c717611b74c5221c7f0ad6c249847d4b') in 0.013039 seconds 
+  Import took 0.017383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_113.asset
+  artifactKey: Guid(ea154a2047efe534f80994d67aecc582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_113.asset using Guid(ea154a2047efe534f80994d67aecc582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bfb2d43f2334acbe1b800339de25ae') in 0.016170 seconds 
+  Import took 0.020726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_102.asset
+  artifactKey: Guid(e73c96c7828a5f547bcc4cc53c06c0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_102.asset using Guid(e73c96c7828a5f547bcc4cc53c06c0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d65de870c57695197b4506c760d0f4') in 0.014123 seconds 
+  Import took 0.018675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_106.asset
+  artifactKey: Guid(6932a2b3b1551f7498deab75fa57cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_106.asset using Guid(6932a2b3b1551f7498deab75fa57cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4a215ea052933de3d8631f5920a33c') in 0.013281 seconds 
+  Import took 0.020271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_101.asset
+  artifactKey: Guid(1f3348698fd75d94f97ec40b6504e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_101.asset using Guid(1f3348698fd75d94f97ec40b6504e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf4cda778d944b89bac995671551a8e') in 0.012680 seconds 
+  Import took 0.018868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_98.asset
+  artifactKey: Guid(46230c44dbfa90f44b484889e5f11d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_98.asset using Guid(46230c44dbfa90f44b484889e5f11d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85c4b09bdb4ea88527f6405d77edac9') in 0.015000 seconds 
+  Import took 0.019373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_104.asset
+  artifactKey: Guid(fe4186afc7c2f974a9819731f52a6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_104.asset using Guid(fe4186afc7c2f974a9819731f52a6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac03cbc8a5b3119a4335c2402dd833b') in 0.014615 seconds 
+  Import took 0.019835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_105.asset
+  artifactKey: Guid(092e98c1256b2b74e92f2b23caafd43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_105.asset using Guid(092e98c1256b2b74e92f2b23caafd43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937fcc47c3f6ad57e8788177c6acb849') in 0.014520 seconds 
+  Import took 0.019375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_118.asset
+  artifactKey: Guid(4a9f253f6538a9b48b613eb27c269700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_118.asset using Guid(4a9f253f6538a9b48b613eb27c269700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0584e8d731b8003ae0d654b336360e2f') in 0.016153 seconds 
+  Import took 0.021638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_120.asset
+  artifactKey: Guid(5d1512141ec9cb74cb680026edbf8ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_120.asset using Guid(5d1512141ec9cb74cb680026edbf8ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3570e28f95797de67e2888cfeecba5d') in 0.013082 seconds 
+  Import took 0.017912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_128.asset
+  artifactKey: Guid(71b9bac966d431540b98bc1ad63924af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_128.asset using Guid(71b9bac966d431540b98bc1ad63924af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f84ea162d8ab7e6f4286f10e0c9847') in 0.013211 seconds 
+  Import took 0.018495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_129.asset
+  artifactKey: Guid(2990a96ccfd0ce24b8d7e02540501ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_129.asset using Guid(2990a96ccfd0ce24b8d7e02540501ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c963859c3cdf153b8efb73edfa2041') in 0.013444 seconds 
+  Import took 0.018340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_131.asset
+  artifactKey: Guid(5ad7158db108a954c90e11c61a371d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_131.asset using Guid(5ad7158db108a954c90e11c61a371d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f946041360b06ddd47158b3084e1f4cc') in 0.013509 seconds 
+  Import took 0.017402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_126.asset
+  artifactKey: Guid(59c7a65f4e0917748abd9f74bb33016a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_126.asset using Guid(59c7a65f4e0917748abd9f74bb33016a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e69c202571d2ce2faca1ec2047364d') in 0.013245 seconds 
+  Import took 0.017653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_132.asset
+  artifactKey: Guid(a5d6b808547a66941a6b3f9e84268877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_132.asset using Guid(a5d6b808547a66941a6b3f9e84268877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70e10670bb857d37253a222fcce70b6') in 0.013546 seconds 
+  Import took 0.018177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_117.asset
+  artifactKey: Guid(047c3879fff44a349b59fea4df8578fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_117.asset using Guid(047c3879fff44a349b59fea4df8578fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdb31c5f9ebb9e479a53d4e2a8ae0e5') in 0.013561 seconds 
+  Import took 0.020463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_122.asset
+  artifactKey: Guid(d4bd0381a9572dd46b459e836cda77d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_122.asset using Guid(d4bd0381a9572dd46b459e836cda77d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52652ae9c33d0f0b354c55d0be18a6d6') in 0.013976 seconds 
+  Import took 0.019545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_119.asset
+  artifactKey: Guid(1cd0ef0ab89958343b800cc85aba0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_119.asset using Guid(1cd0ef0ab89958343b800cc85aba0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e78c396ddfa8c063c5538fc4756c2eb') in 0.013340 seconds 
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_121.asset
+  artifactKey: Guid(cd863fcf2f5eb564f8cdc19b16d9393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_121.asset using Guid(cd863fcf2f5eb564f8cdc19b16d9393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0817b52efa05727c37bc5a6a782dac2') in 0.014619 seconds 
+  Import took 0.019333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_130.asset
+  artifactKey: Guid(306bffc175081e64e8222f96be551e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_130.asset using Guid(306bffc175081e64e8222f96be551e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c10a689ac90251b472f5aeb7fd966fd') in 0.015276 seconds 
+  Import took 0.020440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_107.asset
+  artifactKey: Guid(d5b74901b62a47f4fa6c0e9efe4926df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_107.asset using Guid(d5b74901b62a47f4fa6c0e9efe4926df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f3942e098d24d1929c50bb09ec531a') in 0.012997 seconds 
+  Import took 0.020210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_111.asset
+  artifactKey: Guid(e92b0ca38e734eb44b7ddbacbfe6f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_111.asset using Guid(e92b0ca38e734eb44b7ddbacbfe6f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3af46e7ebc2a53de99fdbcf2dc6e85') in 0.015498 seconds 
+  Import took 0.021139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_127.asset
+  artifactKey: Guid(870e3334cd127af4b93dd1b7b84948be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_127.asset using Guid(870e3334cd127af4b93dd1b7b84948be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48a6c0f29b807d86bbf93cd73b65b2f') in 0.014980 seconds 
+  Import took 0.019713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_125.asset
+  artifactKey: Guid(f28d389434fd3634194f3f82179cfd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_125.asset using Guid(f28d389434fd3634194f3f82179cfd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3455044cf2f796fff52ead60df4400bd') in 0.014479 seconds 
+  Import took 0.018649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_134.asset
+  artifactKey: Guid(3d989814253fb9847a789a71e0cfa060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_134.asset using Guid(3d989814253fb9847a789a71e0cfa060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc93e8fb888b153f82b9682826645f9') in 0.012570 seconds 
+  Import took 0.018072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_133.asset
+  artifactKey: Guid(89998592bde2b5247bf8dd4054c1ace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_133.asset using Guid(89998592bde2b5247bf8dd4054c1ace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ab2136a96511875cb37c25001db274') in 0.011066 seconds 
+  Import took 0.016487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_138.asset
+  artifactKey: Guid(c199f4db98d98dc4db6821956647b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_138.asset using Guid(c199f4db98d98dc4db6821956647b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edd041421a49f63ac55e97dc6da9eb4') in 0.011732 seconds 
+  Import took 0.017946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_137.asset
+  artifactKey: Guid(f063a1be0c4e19f4da0cec1ae3879ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_137.asset using Guid(f063a1be0c4e19f4da0cec1ae3879ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc0d6688c5675608e7b73c2661ec093') in 0.012298 seconds 
+  Import took 0.017888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_141.asset
+  artifactKey: Guid(96aae7828693154458218521200bd307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_141.asset using Guid(96aae7828693154458218521200bd307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1547673c76883c617c74e8e07daa47c6') in 0.015595 seconds 
+  Import took 0.020582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_142.asset
+  artifactKey: Guid(d4c389cadc11f1a48998e65e983e0f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_142.asset using Guid(d4c389cadc11f1a48998e65e983e0f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cec565c34c8533b4d667accde32581') in 0.014752 seconds 
+  Import took 0.019605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_136.asset
+  artifactKey: Guid(7395ae9e626e0444ab6a8231b822eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_136.asset using Guid(7395ae9e626e0444ab6a8231b822eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5114c463e19a622c0a5fbcb3e47f876') in 0.012703 seconds 
+  Import took 0.018199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_143.asset
+  artifactKey: Guid(7d3263d1b489f3648aac9c477d41ace2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_143.asset using Guid(7d3263d1b489f3648aac9c477d41ace2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898f68c8e6d6f98cdfbcab44d80a5146') in 0.013164 seconds 
+  Import took 0.017524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_135.asset
+  artifactKey: Guid(e9259ba26dc6ce4438d36280657e9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_135.asset using Guid(e9259ba26dc6ce4438d36280657e9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67a48d49b66baabacc487e68e345319') in 0.014597 seconds 
+  Import took 0.020295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_140.asset
+  artifactKey: Guid(096c770fdf081f54eabbe1e760fc63bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_140.asset using Guid(096c770fdf081f54eabbe1e760fc63bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bafeb7da9eab74cc6741cd94c86450') in 0.012557 seconds 
+  Import took 0.019380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_123.asset
+  artifactKey: Guid(6cc8557200abfb347bf5608206c4a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_123.asset using Guid(6cc8557200abfb347bf5608206c4a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa21038d4c09b060c0ecb67a1e31d7c') in 0.014417 seconds 
+  Import took 0.019651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_124.asset
+  artifactKey: Guid(666611b39d13b35498364274106e4e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_124.asset using Guid(666611b39d13b35498364274106e4e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089f186ac06166b99d3b994fc0951ee1') in 0.012749 seconds 
+  Import took 0.017775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_108.asset
+  artifactKey: Guid(61094acb2ea42454e8fb2ad8615a980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_108.asset using Guid(61094acb2ea42454e8fb2ad8615a980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f1e8d0fa5938b58a3bf7c775a6bcd7') in 0.015286 seconds 
+  Import took 0.019974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_115.asset
+  artifactKey: Guid(3717760d6f6936a4fb15e4967e71ffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_115.asset using Guid(3717760d6f6936a4fb15e4967e71ffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7debe62c683864e037ea68e2d6a3b59e') in 0.011517 seconds 
+  Import took 0.016438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_139.asset
+  artifactKey: Guid(ed109287ce5025e4fbdad639de0685ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Hello/Terrain (16x16)_139.asset using Guid(ed109287ce5025e4fbdad639de0685ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff030df226aee3af118b7af69c3e1f1') in 0.015913 seconds 
+  Import took 0.023749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.399802 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Palette
+  artifactKey: Guid(8b02e86e1828c4a458d565b72cfff55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Palette using Guid(8b02e86e1828c4a458d565b72cfff55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee28981e93c2154c20134edb8b14f00') in 0.008675 seconds 
+  Import took 0.014110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 607.383610 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png
+  artifactKey: Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png using Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeb738fd593bde02871574676e68661') in 0.437519 seconds 
+  Import took 0.442899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.695145 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png
+  artifactKey: Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png using Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10db3cb9aac2fd37913125130006bf14') in 0.392282 seconds 
+  Import took 0.412414 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1294ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2635.
+Total: 4.345200 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.080500 ms MarkObjects: 3.988000 ms  DeleteObjects: 0.051600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 592.410453 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Blue.png
+  artifactKey: Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Blue.png using Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea08b88c638a9c7230c45748dd7cbf1') in 0.064794 seconds 
+  Import took 0.069318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Gray.png
+  artifactKey: Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Gray.png using Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cf26bcd3c83c2078460fa1a9aa3917') in 0.019552 seconds 
+  Import took 0.024113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Green.png
+  artifactKey: Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Green.png using Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53eddc33b117aa5f607957103db61712') in 0.022567 seconds 
+  Import took 0.027245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Yellow.png
+  artifactKey: Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Yellow.png using Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29066356c0e6a01bbcd9eea165bbdea6') in 0.018000 seconds 
+  Import took 0.023889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4113aa79391385ff2c39c0e3627d2388') in 0.021369 seconds 
+  Import took 0.027650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Brown.png
+  artifactKey: Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Brown.png using Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010a6527998e0d63f516263fce78a88c') in 0.017757 seconds 
+  Import took 0.024774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Purple.png
+  artifactKey: Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Purple.png using Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f92e8e7f1e806ca110e103f4808637') in 0.018860 seconds 
+  Import took 0.023956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.007798 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Green.asset
+  artifactKey: Guid(533e13c48a0f9634db6708e8869686fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Green.asset using Guid(533e13c48a0f9634db6708e8869686fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42d7ed22307851d0c85095b1c65a44a') in 0.027823 seconds 
+  Import took 0.032844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.212299 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Green.png
+  artifactKey: Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Green.png using Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bfc7494d541cf40a66c107fc28908f') in 0.011474 seconds 
+  Import took 0.017021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.003442 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab
+  artifactKey: Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/MyMario.prefab using Guid(ea80a72521e35b14f9d3fa3ccf7fff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca891e5b8f89c61a37df8157747afeb0') in 0.093487 seconds 
+  Import took 0.099956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.564863 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.022294 seconds 
+  Import took 0.028204 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
