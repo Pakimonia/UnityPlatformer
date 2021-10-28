@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cherry
   layers:
   - Default
   - TransparentFX
@@ -11,7 +12,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -39,11 +40,11 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Bacground
-    uniqueID: 2285922029
+    uniqueID: 829550347
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Ground
-    uniqueID: 4076726905
+    uniqueID: 3577372635
     locked: 0
